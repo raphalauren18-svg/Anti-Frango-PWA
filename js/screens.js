@@ -132,7 +132,7 @@ function renderHomeScreen() {
 
       <!-- Brand Statement -->
       <div style="text-align:center;padding:16px 24px 32px;">
-        <img src="https://www.genspark.ai/api/files/s/Owkk8pvM" alt="Anti-Frango" style="height:60px;margin-bottom:12px;filter:drop-shadow(0 0 12px rgba(255,106,0,0.4));">
+        <img src="icons/icon-512x512.png" alt="Anti-Frango" style="height:60px;margin-bottom:12px;filter:drop-shadow(0 0 12px rgba(255,106,0,0.4));">
         <p style="font-size:0.82rem;color:var(--color-text-secondary);font-style:italic;">
           "A marca de treino feita por atletas comuns"
         </p>
@@ -222,7 +222,7 @@ function renderCustomizeScreen() {
                 fill="#2A2A2A" stroke="#383838" stroke-width="1.5"/>
             </g>
             <!-- Logo on shirt -->
-            <image href="https://www.genspark.ai/api/files/s/Owkk8pvM" x="80" y="105" width="80" height="60" id="shirt-logo" opacity="0.9"/>
+            <image href="icons/icon-512x512.png" x="80" y="105" width="80" height="60" id="shirt-logo" opacity="0.9"/>
           </svg>
           <!-- Custom text overlay -->
           <div class="shirt-custom-text" id="shirt-custom-text" style="display:none;"></div>

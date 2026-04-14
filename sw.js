@@ -1,5 +1,5 @@
 // Anti-Frango Service Worker v2.0
-const CACHE_NAME = 'anti-frango-v2';
+const CACHE_NAME = 'anti-frango-v3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -7,6 +7,9 @@ const STATIC_ASSETS = [
   '/js/app.js',
   '/js/data.js',
   '/js/screens.js',
+  '/js/admin.js',
+  '/js/checkout.js',
+  '/js/customizer.js',
   '/manifest.json',
   '/icons/icon-192x192.png',
   '/icons/icon-512x512.png'
