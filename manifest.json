@@ -1,20 +1,67 @@
 {
-  "name": "Anti Frango",
-  "short_name": "AntiFrango",
+  "id": "/",
+  "name": "Anti-Frango - Fitness Store",
+  "short_name": "Anti-Frango",
+  "description": "A marca de treino feita por atletas comuns. Roupas fitness de alta performance para quem treina de verdade.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#0B1F8F",
-  "theme_color": "#FF8A00",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#1A1A1A",
+  "theme_color": "#FF6A00",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["shopping", "sports", "fitness"],
+  "prefer_related_applications": false,
   "icons": [
+    { "src": "icons/icon-72x72.png",            "sizes": "72x72",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96x96.png",            "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-128x128.png",          "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144x144.png",          "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-152x152.png",          "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192x192.png",          "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-384x384.png",          "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512x512.png",          "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-72x72-maskable.png",   "sizes": "72x72",   "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-96x96-maskable.png",   "sizes": "96x96",   "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-128x128-maskable.png", "sizes": "128x128", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-144x144-maskable.png", "sizes": "144x144", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-152x152-maskable.png", "sizes": "152x152", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-192x192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-384x384-maskable.png", "sizes": "384x384", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512x512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
     {
-      "src": "/icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "screenshots/home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tela Inicial - Anti-Frango Fitness Store"
     },
     {
-      "src": "/icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "screenshots/shop.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Loja - Roupas fitness de alta performance"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Loja",
+      "short_name": "Shop",
+      "description": "Ver produtos Anti-Frango",
+      "url": "/?screen=shop",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Customizar",
+      "short_name": "Custom",
+      "description": "Personalizar sua camiseta",
+      "url": "/?screen=customize",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" }]
     }
   ]
 }

@@ -94,7 +94,7 @@ function handleUrlParams() {
 
 function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(reg => {
+    navigator.serviceWorker.register('./sw.js').then(reg => {
       console.log('[App] Service Worker registered:', reg.scope);
     }).catch(err => {
       console.warn('[App] SW registration failed:', err);
